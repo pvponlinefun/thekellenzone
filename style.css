@@ -13,13 +13,7 @@ h2 {
     text-align: center;
 }
 
-.quizlink{
-    text-align: center;
-    font-size: xx-large;
-    font-family: 'Ubuntu';
-}
-
-.newslink{
+.contentlink{
     text-align: center;
     font-size: xx-large;
     font-family: 'Ubuntu';
@@ -38,4 +32,8 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50px;
+}
+
+.invisible {
+    border: none;
 }
