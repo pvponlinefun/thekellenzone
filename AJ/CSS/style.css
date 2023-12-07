@@ -1,0 +1,70 @@
+* {
+    margin: 0pt;
+    padding: 0pt;
+}
+body {
+    /* background: linear-gradient(95deg, #88ff, #34d1d1); */
+    background-image: url("../Assets/background-000.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    position:fixed;
+}
+.headerh {
+    background: linear-gradient(to right, rgb(174, 255, 127), #00000000);
+    padding: 10pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #434343;
+}
+ol {
+    /* float: right; */
+    display: inline-block;
+    margin-left: 16pt;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 16pt;
+}
+.navi > a {
+    text-decoration: none;
+    color: #434343;
+    font-size: 12pt;
+    vertical-align: middle;
+}
+h1 :hover {
+    color: #000;
+}
+.container {
+    height: 92vmax;
+    padding: 24pt;
+    padding-top: 8vmax;
+    background: linear-gradient(to left, rgb(174, 255, 127), #00000000);
+}
+.container > h1 {
+    color: #434343;
+    padding-bottom: 16pt;
+}
+.profile {
+    border-radius: 50%;
+    width: 72pt;
+    height: 72pt;
+}
+.profileBackground {
+    padding: 8pt;
+    background: linear-gradient(to right, rgb(174, 255, 127), #00000000);
+    width: 84pt;
+    height: 84pt;
+    border-radius: 50%;
+}
+.quote {
+    padding: 8pt;
+    float: right;
+    margin: 16pt;
+    color: #434343;
+    font-family:cursive;
+    background: linear-gradient(to right, rgb(174, 255, 127), #00000000);
+}
