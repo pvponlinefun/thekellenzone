@@ -24,3 +24,27 @@ img {
     width: 50%;
     height: auto;
   }  
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Ubuntu;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04aa6d;
+    color: white;
+  }
