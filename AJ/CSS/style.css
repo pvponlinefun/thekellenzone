@@ -1,10 +1,11 @@
 * {
-    margin: 0pt;
-    padding: 0pt;
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
 }
 body {
-    /* background: linear-gradient(95deg, #fff, #34d1d1); */
-    /* background-image: url("../Assets/background-000.jpeg"); */
+    background-color: #434343;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -12,36 +13,26 @@ body {
     width: 100vmax;
 }
 header {
-    position:fixed;
-    border-width: 13px;
-    border-color: #434343;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.headerh {
-    /* background: linear-gradient(to right, #34d1d1, #fff); */
-    padding: 10pt;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #434343;
-    width: 100vmax;
-}
-ol {
-    display: inline-block;
-    margin-left: 16pt;
-}
-li {
-    list-style-type: none;
-    display: inline;
-    padding-right: 16pt;
-}
-.navi > a {
+header a {
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #434343;
-    font-size: 12pt;
-    vertical-align: middle;
+    font-size: 17px;
+    border-radius: 8px;
+    margin: 0px 16px;
 }
-h1 :hover {
-    color: #000;
+header a:hover {
+    background-color: #c2c2c2;
+}
+header a.current {
+    background: linear-gradient(135deg, lightblue, white);
+    color: #434343;
 }
 .container {
     padding-top: 48pt;
-    /* background: linear-gradient(to left, rgb(174, 255, 127), #00000000); */
 }
