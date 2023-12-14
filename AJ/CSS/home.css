@@ -1,0 +1,16 @@
+.container {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+.container > * {
+    
+}
+.container-stuff {
+    padding: 16px;
+}
+.container-stuff > p {
+    word-wrap: break-word;
+}
