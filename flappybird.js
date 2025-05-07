@@ -1,4 +1,4 @@
-
+console.log("Hello World")
 
 let board;
 let boardWidth = 360;
